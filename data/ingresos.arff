@@ -1,0 +1,33 @@
+@RELATION ingresos
+
+@ATTRIBUTE tipo_empleo {empleado, autonomo, desempleado}
+@ATTRIBUTE ingresos NUMERIC
+@ATTRIBUTE edad NUMERIC
+@ATTRIBUTE clase {bajo, medio, alto}
+
+@DATA
+empleado, 30000, 30, medio
+autonomo, 40000, 35, alto
+desempleado, 0, 28, bajo
+empleado, 25000, 45, bajo
+autonomo, 50000, 50, alto
+empleado, 28000, 40, medio
+autonomo, 60000, 45, alto
+desempleado, 0, 22, bajo
+empleado, 15000, 23, bajo
+autonomo, 55000, 38, alto
+empleado, 20000, 29, bajo
+desempleado, 5000, 35, bajo
+empleado, 35000, 48, medio
+autonomo, 70000, 55, alto
+empleado, 30000, 41, medio
+empleado, 40000, 32, medio
+autonomo, 80000, 60, alto
+desempleado, 0, 30, bajo
+empleado, 18000, 25, bajo
+empleado, 22000, 39, bajo
+autonomo, 45000, 44, medio
+empleado, 32000, 37, medio
+desempleado, 2000, 29, bajo
+empleado, 27000, 50, medio
+autonomo, 65000, 52, alto
